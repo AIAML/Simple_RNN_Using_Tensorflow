@@ -1,3 +1,3 @@
-<h2> Simple RNN Using Tensorflow </h2>
+<h2> Simple RNN (Recurrent Neural Networks) Using Tensorflow </h2>
 
 
