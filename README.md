@@ -1,8 +1,8 @@
 <h2> Simple RNN (Recurrent Neural Networks) Using Tensorflow </h2>
 
 First,the following packages need to be inserted in your code
-
-<code>
+<p>
+  <code>
 
 import numpy as np
 import tensorflow as tf
@@ -13,10 +13,8 @@ from keras.layers import Dense,SimpleRNN
 
 import pandas as pd
 import matplotlib.pyplot as plt
-
-
-</code>
-
+  </code>
+</p>
 Next, the input data is generated 
 
 <code>
