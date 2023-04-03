@@ -3,16 +3,13 @@
 First,the following packages need to be inserted in your code
 <p>
   <code>
-
-import numpy as np
-import tensorflow as tf
-from tensorflow import keras
-from keras.models import Sequential
-
-from keras.layers import Dense,SimpleRNN
-
-import pandas as pd
-import matplotlib.pyplot as plt
+    import numpy as np
+    import tensorflow as tf
+    from tensorflow import keras
+    from keras.models import Sequential
+    from keras.layers import Dense,SimpleRNN
+    import pandas as pd
+    import matplotlib.pyplot as plt
   </code>
 </p>
 Next, the input data is generated 
