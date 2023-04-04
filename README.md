@@ -32,10 +32,15 @@ After All, Our model is implemented using the code below. Then this model is com
   model.compile(loss='mean_squared_error',optimizer='sgd')
 </code>
 <p>
-After These steps, we need to deal with training and testing our model.
+After these steps, we need to deal with training and testing our model.
 </p>
-
-
-
+<code>
+  history = model.fit(input,target, epochs=1000)
+  output = model.predict(input)
+  pd.DataFrame(history.history).plot(figsize=(8, 5))
+  plt.grid(True)
+  plt.gca().set_ylim(0, 1)  # set the vertical range to [0-1]
+  plt.show()
+</code>
 
 <img src="https://github.com/AIAML/Simple_RNN_Using_Tensorflow/blob/main/test.jpg" width='80%'>
