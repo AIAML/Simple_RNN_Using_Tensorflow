@@ -22,6 +22,20 @@ Then, we need our test dataset to be created. So go on and add the following cod
   target = np.array([[1.42],[1.68],[1.98],[2.32],[2.7],[3.12],[3.58],[4.08],[4.62],[5.2],[5.82],[6.48],[7.18],[7.92],[8.7]])
 </code>  
 
+<p>
+After All, Our model is implemented using the code below. Then this model is compiled and ready to be predict.
+</p>
+<code>
+  model = Sequential()
+  model.add(SimpleRNN(units=1,input_shape=(1,1)))
+  model.add(Dense(units=1,activation='linear'))
+  model.compile(loss='mean_squared_error',optimizer='sgd')
+</code>
+<p>
+After These steps, we need to deal with training and testing our model.
+</p>
+
+
 
 
 <img src="https://github.com/AIAML/Simple_RNN_Using_Tensorflow/blob/main/test.jpg" width='80%'>
