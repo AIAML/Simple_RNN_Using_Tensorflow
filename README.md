@@ -1,6 +1,7 @@
 <h2> Simple RNN (Recurrent Neural Networks) Using Tensorflow </h2>
 
 First,the following packages need to be inserted in your code
+
 <p>
   <code>
     import numpy as np
